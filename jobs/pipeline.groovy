@@ -31,7 +31,7 @@ pipelineJob(job_name) {
           branches('${GIT_BRANCH}')
         }
       }
-      scriptPath('Jenkinsfile')
+      scriptPath('jenkinsFile')
       lightweight(false)
     }
   }
